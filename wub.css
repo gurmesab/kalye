@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900& display=swap');
+*{
+    margin:0;
+    padding:o;
+    box-sizing: border-box;
+    text-decoration: none;
+    Font-family: 'poppins',sans-serif ;
+
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background:salmon;
+    display:flex;
+    justify-content:space-between;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+     transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+color:rgb(0, 0, 0);
+} 
+.home{
+    height: 100vh;
+    background: linear-gradient(-90deg,black 65%, white 35%);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 10%;
+
+}
+.home-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 50%;
+    
+    border:25px solid BLACK;
+    outline: 25px solid whitesmoke;
+}
+.home-image img{
+
+    float: left;
+    align-items: center;
+    margin-left: 0%;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    overflow: hidden;
+  
+
+   
+  }
+  
+
+.home-content{
+    max-width: 600px;
+    color: white;
+    text-align: right;
+}
+.home-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size: 40px;
+    color: green;
+    -webkit-text-stroken: .5px white;
+}
+.home-content p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.home-sci{
+    margin:25px 0 40px;
+}
+.home-sci a {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border:2px solid whitesmoke;
+border-radius: 50%;
+font-size: 20px;
+color: deepskyblue;
+text-decoration: none;
+margin-left: 12px;
+}
+.home-sci a:hover {
+    background:green;
+    color: aliceblue;
+    border-color:green;
+    box-shadow: 0 0 10px green;
+
+}
+.btn{
+padding: 12px 35px;
+background: green;
+border-radius: 40px;
+font-size: 17px;
+color: aliceblue;
+text-decoration: none;
+font-weight: 600;
+letter-spacing: 1px;
+box-shadow: 0 0 10px green;
+transition: .5s;
+
+}
+.btn:hover{
+    box-shadow: none;
+
+}
+
+
+
+.home-sc{
+    margin:25px 0 40px;
+}
+.home-sc a {
+background-color: rgb(218, 177, 116);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: black;
+border:2px solid whitesmoke;
+border-radius: 50%;
+font-size: 35px;
+color: deepskyblue;
+text-decoration: none;
+margin-left: 12px;
+padding: 12px 35px;
+
+}
+.home-sc a:hover {
+    background:green;
+    color: aliceblue;
+    border-color:green;
+    box-shadow: 0 0 10px green;
+    background-color: rgb(218, 177, 116);
+
+}
+.btn{
+padding: 12px 35px;
+background: green;
+border-radius: 40px;
+font-size: 17px;
+color: aliceblue;
+text-decoration: none;
+font-weight: 600;
+letter-spacing: 1px;
+box-shadow: 0 0 10px green;
+transition: .5s;
+
+}
+.btn:hover{
+    box-shadow: none;
+    color:black;
+
+}
+.B{
+    color: red;
+    background-color: rgb(71, 89, 94);
+    font-style: italic;
+    margin-left: 4%;
+}
+.y{
+    background-color: rgb(214, 59, 59);
+    color: black;
+    text-align: center;
+
+}
+img{
+
+    border: 15px solid black;
+    outline: 15px solid rgb(0, 150, 75);
+    display:block;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background:white;
+    border-radius: 50%;
+    border:25px solid whitesmoke;
+    outline: 25px solid black;
+    overflow: hidden;
+}
+.x{
+
+background:red;
+
+font-size: 30px;
+color:black;
+text-decoration: none;
+font-weight: 600;
+font-style: italic;
+
+}
+ pre{
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 15%;
+    border:15px double rgba(5, 187, 66, 0.808);
+    outline: 15px solid royalblue;
+    text-align: center;
+    margin-top: 25px;
+
+ }
+ .v {
+    background: rgb(28, 104, 155);
+border-radius: 20px;
+font-size: 40px;
+color:darkorange;
+text-decoration: none;
+font-weight: 600;
+outline: 15px solid royalblue;
+outline: 15px solid royalblue;
+ }
+.up{
+    background: rgb(6, 154, 165);
+border-radius: 20px;
+font-size: 30px;
+color:darkorange;
+text-decoration: none;
+font-weight: 600;
+outline: 15px solid royalblue;
+ }
+
+
+
+
+
+
+
+
+
+ body{
+    background-color: black;
+     font-family: sans-serif;
+     color: whitesmoke;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 27px;
+    cursor: default;
+    opacity: 0;
+    animation: slideleft 1s ease forwards;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 16px;
+    font-weight: 800;
+    transition: 0.3s all;
+    display: inline-block;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color:aqua;
+}
+.hero-contaner{
+    display: flex;
+    padding: 25px 10%;
+    justify-content: center;
+    align-items: center;
+}
+.info-side h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.info-side h1{
+    font-size: 75px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.info-side h1 span{
+  color: aqua;  
+}
+p{
+    line-height: 27px;
+    margin: 20px 0px 40px 0px;
+}
+.hero-img img{
+  width:450px ;  
+  border-radius: 50%;
+}
+i{
+    position: relative;
+    border: 2px solid aquamarine;
+   padding: 10px;
+   color:aquamarine;
+   margin: 0px 8px;
+   transition: 0.3s;
+}
+i:hover{
+    box-shadow: 0 0 20px aquamarine;
+
+}
+button{
+    background-color: aquamarine;
+    margin-top: 50px;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition:0.3s ;
+    box-shadow: 0 0 15px aquamarine;
+}
+button:hover{
+   box-shadow: none; 
+
+}
